@@ -1,0 +1,37 @@
+---
+abstract: 'XML elements with the same interface as HTML::Element'
+author:
+  - 'Jeff Fearn <jfearn@cpan.org>'
+build_requires:
+  Devel::Cover: 0
+  HTML::Element: 4.1
+  HTML::Tagset: 3.02
+  Module::Build: 0
+  Test::Exception: 0
+  Test::More: 0
+  Test::Perl::Critic: 0
+  Test::Pod::Coverage: 0
+  XML::Parser: 0
+configure_requires:
+  Module::Build: 0
+generated_by: 'Module::Build version 0.3624'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: XML-TreeBuilder
+provides:
+  XML::Element:
+    file: lib/XML/Element.pm
+    version: 4.2
+  XML::TreeBuilder:
+    file: lib/XML/TreeBuilder.pm
+    version: 0
+requires:
+  HTML::Element: 4.1
+  HTML::Tagset: 3.02
+  XML::Parser: 0
+  perl: v5.4.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 4.2
